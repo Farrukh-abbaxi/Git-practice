@@ -1,0 +1,570 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+
+}
+/* container css */
+.container{
+    background-color: #ddd;
+    margin: 0 20px;
+    
+}
+/* header css */
+
+.header{
+    background: url('images/mountain\ 1.jpg') no-repeat center center/cover;
+    height: 500px;
+    
+}
+.header img{
+    max-width: 100%;
+}
+.logo{
+    font-family:Brush Script MT;
+    float: left;
+    margin-left: 20%;
+    color: white;
+
+}
+/* Navbar css */
+.nav-link ul{
+    justify-content: space-between;
+    margin-left: 60%;
+}
+.nav-link ul li {
+    display: inline;   
+}
+.nav-link ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    text-transform:capitalize ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link ul li a:hover{
+    color: black;
+}
+/* header content css */
+.header-content{
+    margin: 150px auto;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+/* header section button */
+.header-btn{
+    border-radius: 20px;
+    margin: 10px;
+    padding:10px;
+    background-color:#E3e3e3
+    ;
+    border: none;
+}
+.header-btn:hover{
+    color: white;
+    background-color:#C5cbc5;
+
+}
+/* what to do section css */
+.mid-section{
+    height: 350px;
+    margin-top: 50px;
+
+
+}
+h3{
+    margin: 20px 0;
+    text-align: center;
+}
+.center-heading h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px auto;
+    text-decoration-color:black;
+    text-decoration-style: solid;
+    display: inline;
+    border-bottom: 3px solid black;
+    text-underline-offset: 50%;
+}
+.mid-boxes{
+    display: flex;
+    justify-content: space-between;
+    margin:30px 15% ;
+    align-items: center;
+    
+    
+    
+
+}
+.box-1{
+    height: 220px;
+    width: 23%;
+    box-shadow: 1px 1px 5px #999;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+
+}
+.box-2{
+    height: 220px;
+    width: 23%;
+    box-shadow: 1px 1px 5px #999;
+    background-color: #fff;
+
+
+
+}
+.box-3{
+    height: 220px;
+    width: 23%;
+    box-shadow: 1px 1px 5px #999;
+    background-color: #fff;
+
+
+
+}
+.box-4{
+    height: 220px;
+    width: 23%;
+    box-shadow: 1px 1px 5px #999;
+    background-color: #fff;
+
+
+
+}
+.box-img{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.mid-boxes-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.mid-boxes-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    padding: 10px;
+    text-align: center;
+
+}
+/* offers section css */
+.offer-section{
+    height: 450px;
+    margin-top: 50px;
+    background: url('images/windmill.jpg') no-repeat center center/cover;
+    width: 100%;
+
+    
+}
+
+.offer-grid{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 0px;
+    justify-content: center;
+}
+.offer-left{
+    height: 400px;
+    width: 400px;
+    margin-left: 130px;
+    margin-top: 30px;
+
+}
+.offer-right{
+    
+    height: 400px;
+    width: 400px;
+    margin-right: 130px;
+    margin-top: 30px;
+    
+}
+.offer-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: left;
+    align-items: center;
+    padding: 30px;
+    margin: 0;
+}
+.offer-left p{
+    /* color: #fff; */
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 20px;
+    align-items: center;
+    margin: 0;
+
+}
+.discover-btn{
+    border-radius: 20px;
+    margin: 10px;
+    padding:10px;
+    background-color:#E3e3e3;
+    border: none;
+}
+.discover-btn:hover{
+    color: white;
+    background-color:#C5cbc5;
+}
+.purchase-btn{
+    border-radius: 20px;
+    margin: 10px;
+    padding:10px;
+    background-color:#E3e3e3;
+    border: none;
+}
+.purchase-btn:hover{
+    color: white;
+    background-color:#C5cbc5;
+}
+
+.img1 {
+    position: relative;
+    z-index: 1;
+    height: 100px;
+    margin: 30px;
+  }
+  
+  .img2 {
+    position: absolute;
+    z-index: 3; 
+    width: 70%;
+    margin-right: 50px;
+    
+  }
+  
+  .img3 {
+    position: absolute;
+    z-index: 2; 
+    width: 35%;
+    left: 270px;
+    top: -15px;
+    height: 80px;
+    margin-top: 200px;
+  }
+  .con{
+    position: relative;
+    align-items: center;
+  }
+  /* portfolio section css */
+  .portfolio-section{
+    height: 500px;
+    margin-top: 50px;
+  }
+  .portfolio-heading{
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .portfolio-heading h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px auto;
+    text-decoration-color:black;
+    text-decoration-style: solid;
+    display: inline;
+    border-bottom: 3px solid black;
+} 
+.portfolio-nav{
+    justify-content: center;
+    margin-top: 50px;
+} 
+
+.portfolio-nav ul li {
+    display: inline;   
+}
+.portfolio-nav ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: black;
+    text-transform:capitalize ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.portfolio-nav li a:hover{
+    color: white;
+}
+
+
+.portfolio-grid{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    margin: 20px 10px;
+    align-items: center;
+
+}
+.portfolio-grid div{
+    width: 100px;
+  margin: 10px;
+  text-align: center;
+  margin-right: 120px;
+  
+}
+.portfolio-image{
+    height: 150px;
+    width: 200px;
+}
+/* blog section css */
+.blog-section{
+    height: 400px;
+    margin-top: 30px;
+    background-color: #9aeda4;
+    padding: 30px;
+}
+.blog-heading{
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .blog-heading h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px auto;
+    text-decoration-color:black;
+    text-decoration-style: solid;
+    display: inline;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+} 
+.blog-left{
+    background: url('images/laptop5.webp') no-repeat center center/cover;
+    height: 300px;
+    width: 40%;
+    margin: 30px 0 30px 120px;
+    float: left;
+    
+}
+.left-footer{
+    background: black;
+    height: 90px;
+    width: 100%;
+    margin-top: 210px;
+    opacity: 0.6;
+}
+
+.left-footer h4 {
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px;
+}
+.left-footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 0px 10px;
+
+}
+
+
+.blog-right-top{
+    background: url('images/laptop6.webp') no-repeat center center/cover;
+    height: 135px;
+    width: 30%;
+    margin: 30px 0 20px 20px;
+    float: left;
+    
+}
+.right-footer{
+    background: black;
+    height: 45px;
+    width: 100%;
+    margin-top: 90px;
+    opacity: 0.6;
+}
+.right-footer h4 {
+    color: #fff;
+    font-size: small;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px;
+}
+.right-footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 0px 10px;
+    font-size: small;
+
+}
+
+.blog-right-bottom{
+    background: url('images/laptop8.webp') no-repeat center center/cover;
+    height: 135px;
+    width: 30%;
+    margin: 10px 0 20px 20px;
+    float: left;
+   
+}
+
+
+
+/* web info css */
+.web-info-section{
+    height: 200px;
+    margin-top: 100px;
+    
+}
+.web-boxes{
+    display: flex;
+    justify-content: space-between;
+    margin:30px 15% ;
+    align-items: center;
+    
+}
+.web-box{
+    height: 100px;
+    width: 23%;
+    box-shadow: 1px 1px 5px #999;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+
+}
+
+.web-boxes-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color: green;
+}
+.web-boxes-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+
+/* contact us css */
+/* .footer{
+    height: 350px;
+    margin-top: 30px;
+    padding: 30px;
+} */
+.contact-heading{
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .contact-heading h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px auto;
+    text-decoration-color:white;
+    text-decoration-style: solid;
+    display: inline;
+    border-bottom: 3px solid white;
+    margin-bottom: 30px;
+    color: #fff;
+} 
+
+.footer {
+    background: url('images/mountain\ 1.jpg') no-repeat center center/cover;
+    height: 400px;
+    
+   }
+   .opacity {
+    background-color: #000;
+    height: 400px;
+    width: 100%;
+    opacity: 0.7;
+    padding: 20px 20px;
+   }
+  
+  .footer_grid {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 2%;
+    margin-top: 20px;
+  }
+  .footer-left-section img {
+    float: right;
+    height: 250px;
+  }
+  ::placeholder {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+  .footer-right-section input textarea {
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px;
+    outline: none;
+  }
+  .footer-right-section input textarea {
+    background-color: gray;
+    border: none;
+  }
+  .discover-btn{
+    border-radius: 20px;
+    margin: 10px;
+    padding:10px;
+    background-color:#E3e3e3;
+    border: none;
+}
+.discover-btn:hover{
+    color: white;
+    background-color:#C5cbc5;
+}
+   .f-footer {
+    background-color: #000;
+    height: 100px;
+    width: 100%;
+   }
+   .footer-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+   }
+   .left-footer-grid {
+    margin: 30px auto;
+   }
+   .left-footer-grid p{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 140px;
+   }
+   .right-footer-grid {
+    margin: 30px auto;
+   }
+  
+   .right-footer-grid ul li {
+    display: inline;
+    text-decoration: none;
+    
+  }
+  .right-footer-grid ul li img {
+    height: 25px;
+    width: 25px;
+    margin: 5px ;
+  }
+.name{
+    height: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.email{
+    height: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textarea{
+    width: 63%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
